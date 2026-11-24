@@ -58,15 +58,15 @@
 
   <!-- Left Eyebrow Badge -->
   <g transform="translate(48, 38)">
-    <rect width="250" height="26" rx="13" fill="#131B2E" stroke="#1E293B" stroke-width="1"/>
+    <rect width="280" height="26" rx="13" fill="#131B2E" stroke="#1E293B" stroke-width="1"/>
     <circle cx="16" cy="13" r="4.5" fill="#2DD4BF" fill-opacity="0.25"/>
     <circle cx="16" cy="13" r="2.5" fill="#2DD4BF"/>
-    <text x="28" y="17" class="font-mono" font-size="10.5" font-weight="600" fill="#2DD4BF" letter-spacing="1.2">GOOGLE APM 2027 CANDIDATE</text>
+    <text x="28" y="17" class="font-mono" font-size="10" font-weight="600" fill="#2DD4BF" letter-spacing="1">COMMERCE • CORPORATE LAW • MBA</text>
   </g>
 
   <!-- Right Metadata / Coordinates -->
   <g transform="translate(670, 38)">
-    <text x="202" y="17" class="font-mono" font-size="10.5" fill="#64748B" text-anchor="end" letter-spacing="0.8">0-TO-1 SYSTEMS // PRODUCT PORTFOLIO</text>
+    <text x="202" y="17" class="font-mono" font-size="10.5" fill="#64748B" text-anchor="end" letter-spacing="0.8">PRACTICAL WEB TOOLS &amp; WORKFLOWS</text>
   </g>
 
   <!-- Main Headline -->
@@ -78,35 +78,35 @@
   <g transform="translate(48, 148)">
     <!-- Tiny color accent line -->
     <rect x="0" y="2" width="3" height="18" rx="1.5" fill="url(#accent-grad)"/>
-    <text x="14" y="16" class="font-sans" font-size="16.5" font-weight="600" fill="#E2E8F0" letter-spacing="-0.2">Product Builder <tspan fill="#64748B">•</tspan> <tspan fill="#CBD5E1">Finance, Corporate Law &amp; MBA (Finance &amp; HRM)</tspan></text>
+    <text x="14" y="16" class="font-sans" font-size="15" font-weight="600" fill="#E2E8F0" letter-spacing="-0.2">Commerce, Corporate Law &amp; MBA (Finance/HRM) <tspan fill="#64748B">•</tspan> <tspan fill="#CBD5E1">Practical Web Tools</tspan></text>
   </g>
 
   <!-- Tagline -->
   <g transform="translate(48, 184)">
-    <text class="font-sans" font-size="14.5" font-style="normal" font-weight="400" fill="#94A3B8" letter-spacing="-0.1">“Translating complex legal, financial &amp; user problems into simple 0-to-1 products.”</text>
+    <text class="font-sans" font-size="14.5" font-style="normal" font-weight="400" fill="#94A3B8" letter-spacing="-0.1">“Building practical web tools across finance, EdTech &amp; consumer utility.”</text>
   </g>
 
   <!-- Bottom Feature Pill Badges -->
   <g transform="translate(48, 230)">
-    <!-- Pill 1: 0-to-1 Architecture -->
+    <!-- Pill 1: Web Tool Design -->
     <g transform="translate(0, 0)">
       <rect width="210" height="34" rx="8" fill="#131F2A" stroke="#2DD4BF" stroke-width="1" stroke-opacity="0.35"/>
       <circle cx="18" cy="17" r="3" fill="#2DD4BF"/>
-      <text x="30" y="21" class="font-sans" font-size="12" font-weight="600" fill="#E2E8F0">0-to-1 Product Architecture</text>
+      <text x="30" y="21" class="font-sans" font-size="12" font-weight="600" fill="#E2E8F0">Interactive Web Tools</text>
     </g>
 
-    <!-- Pill 2: FinTech & Regulatory UX -->
+    <!-- Pill 2: FinTech & Regulatory Workflows -->
     <g transform="translate(222, 0)">
-      <rect width="216" height="34" rx="8" fill="#191B33" stroke="#818CF8" stroke-width="1" stroke-opacity="0.35"/>
+      <rect width="225" height="34" rx="8" fill="#191B33" stroke="#818CF8" stroke-width="1" stroke-opacity="0.35"/>
       <circle cx="18" cy="17" r="3" fill="#818CF8"/>
-      <text x="30" y="21" class="font-sans" font-size="12" font-weight="600" fill="#E2E8F0">FinTech &amp; Regulatory UX</text>
+      <text x="30" y="21" class="font-sans" font-size="12" font-weight="600" fill="#E2E8F0">FinTech &amp; Legal Workflows</text>
     </g>
 
-    <!-- Pill 3: Data-Backed Strategy -->
-    <g transform="translate(450, 0)">
-      <rect width="190" height="34" rx="8" fill="#132130" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.35"/>
+    <!-- Pill 3: Creator Collaborations -->
+    <g transform="translate(459, 0)">
+      <rect width="200" height="34" rx="8" fill="#132130" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.35"/>
       <circle cx="18" cy="17" r="3" fill="#38BDF8"/>
-      <text x="30" y="21" class="font-sans" font-size="12" font-weight="600" fill="#E2E8F0">Data-Backed Strategy</text>
+      <text x="30" y="21" class="font-sans" font-size="12" font-weight="600" fill="#E2E8F0">Creator Collaborations</text>
     </g>
   </g>
 
@@ -131,10 +131,10 @@
     <circle cx="108" cy="-28" r="11" fill="#0C253B" stroke="#38BDF8" stroke-width="1.2"/>
     <text x="108" y="-24" class="font-mono" font-size="8.5" font-weight="700" fill="#7DD3FC" text-anchor="middle">FIN</text>
 
-    <!-- Bottom: Product -->
+    <!-- Bottom: Tech -->
     <line x1="65" y1="10" x2="65" y2="58" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.6"/>
     <circle cx="65" cy="58" r="11" fill="#062E25" stroke="#2DD4BF" stroke-width="1.2"/>
-    <text x="65" y="62" class="font-mono" font-size="8.5" font-weight="700" fill="#5EEAD4" text-anchor="middle">PM</text>
+    <text x="65" y="62" class="font-mono" font-size="8.5" font-weight="700" fill="#5EEAD4" text-anchor="middle">TECH</text>
 
     <!-- Connection label -->
     <text x="65" y="-55" class="font-mono" font-size="9" fill="#64748B" text-anchor="middle" letter-spacing="0.5">INTERSECTION</text>

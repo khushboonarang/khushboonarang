@@ -47,7 +47,7 @@
   <g transform="translate(40, 28)">
     <rect width="280" height="24" rx="12" fill="#0C253B" stroke="#0284C7" stroke-width="0.8" stroke-opacity="0.6"/>
     <circle cx="14" cy="12" r="3" fill="#38BDF8"/>
-    <text x="24" y="16" class="font-mono" font-size="10" font-weight="700" fill="#7DD3FC" letter-spacing="1">0-TO-1 PROTOTYPE • AI FINANCE INTEL</text>
+    <text x="24" y="16" class="font-mono" font-size="10" font-weight="700" fill="#7DD3FC" letter-spacing="1">WEB PROTOTYPE • FINANCE INTELLIGENCE</text>
   </g>
 
   <!-- 2. Project Title & Prototype Tag -->
@@ -161,7 +161,7 @@
 
     <!-- Bottom Status Note -->
     <g transform="translate(14, 185)">
-      <text x="126" y="14" class="font-mono" font-size="8.5" fill="#64748B" text-anchor="middle">TRANSFORMING UNSTRUCTURED DATA INTO PM INSIGHTS</text>
+      <text x="126" y="14" class="font-mono" font-size="8.5" fill="#64748B" text-anchor="middle">TRANSFORMING UNSTRUCTURED DATA INTO CLEAR INSIGHTS</text>
     </g>
   </g>
 </svg>
