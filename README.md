@@ -28,7 +28,7 @@
 
 > **"Most products fail not from lack of code, but from an inability to translate opaque statutory rules, messy financial constraints, and high-stress user anxiety into intuitive software."**
 
-I am a **0-to-1 Product Builder** with a multi-disciplinary foundation across **Finance, Corporate Law, and MBA (Finance & HRM)**. I design systems that simplify complex domains—from building rapid cyber-fraud recovery workflows adhering to Reserve Bank of India (RBI) mandates, to scaling community-driven learning platforms for 100k+ finance aspirants alongside top creators.
+I am a **0-to-1 Product Builder** with a multi-disciplinary foundation across **Finance, Corporate Law, and MBA (Finance & HRM)**. I design systems that simplify complex domains—from building rapid cyber-fraud recovery workflows adhering to Reserve Bank of India (RBI) mandates, to scaling community-driven learning platforms for finance aspirants alongside top creators.
 
 Currently channeling rigorous analytical rigor, user empathy, and rapid prototyping toward the **Google Associate Product Manager (APM) 2027** cohort.
 
@@ -48,7 +48,7 @@ Currently channeling rigorous analytical rigor, user empathy, and rapid prototyp
 <br/>
 
 * **The Core User Problem:**
-  Victims of digital banking fraud operate in a state of acute panic. They face high cognitive load, fragmented bank toll-free numbers, and opaque 72-hour Reserve Bank of India (RBI) statutory deadlines for zero-liability protection. Over 80% fail to file the statutory evidence required within the golden window.
+  Victims of digital banking fraud operate in a state of acute panic. They face high cognitive load, fragmented bank toll-free numbers, and opaque 72-hour Reserve Bank of India (RBI) statutory deadlines for zero-liability protection. Most victims struggle to file within the statutory window due to jargon and stress.
 * **Key Product Decisions & Architecture:**
   * **Dual-Path Onboarding:** Split user entry into **Panic Mode** (1-click account/UPI freeze guidance in `< 60 seconds`) vs. **Structured Filing** (comprehensive evidence collection).
   * **4W Precision Engine:** Deconstructs traumatic incidents into structured metadata (*What* happened, *When* it transpired, *Where* money moved, and *Who* was communicated with) without legal jargon.
@@ -69,7 +69,7 @@ Currently channeling rigorous analytical rigor, user empathy, and rapid prototyp
 * **The Core User Problem:**
   CMA candidates across tier-1 to tier-3 India lack a cohesive, structured platform for curriculum tracking, verified resources, and articleship placement. Aspirants juggle fragmented WhatsApp/Telegram groups, unverified notes, and opaque corporate hiring pipelines.
 * **Key Product Decisions & Architecture:**
-  * **Creator-to-Product Flywheel:** Partnered with premier finance creator **Vinayak** to convert 100,000+ organic video viewers into a structured, highly engaged product user base.
+  * **Creator-to-Product Flywheel:** Partnered with premier finance creator **Vinayak** to structure organic educational content and resources into a structured, highly engaged product user base.
   * **Structured Milestone Architecture:** Engineered curriculum tracking mapped directly to ICMAI exam syllabi (Foundation, Intermediate, Final), reducing drop-off through bite-sized progression bars.
   * **Articleship & Opportunity Engine:** Designed a discovery interface connecting qualified students directly with corporate training opportunities and verified alumni mentors.
   * **Centralized Curated Repository:** Unified statutory tax amendments, mock test analysis, and peer discussion boards into a clean, noise-free web environment.
@@ -103,9 +103,9 @@ Currently channeling rigorous analytical rigor, user empathy, and rapid prototyp
       <h4>🏢 Office of Vinayak</h4>
       <p><strong>Research, Strategy &amp; Founder's Office Collaborator</strong></p>
       <ul>
-        <li>Partnered directly with the founder on 0-to-1 ecosystem ideation, content strategy, and community roadmap planning for 100k+ audience.</li>
+        <li>Partnered directly with the founder on 0-to-1 ecosystem ideation, content strategy, and community roadmap planning.</li>
         <li>Conducted user discovery interviews with finance students to define user friction points, curriculum bottlenecks, and product requirements.</li>
-        <li>Spearheaded research synthesis on CMA trends, edtech distribution models, and strategic partnerships.</li>
+        <li>Led research synthesis on CMA trends, edtech distribution models, and strategic partnerships.</li>
       </ul>
     </td>
     <td width="33%">
@@ -175,25 +175,11 @@ Currently channeling rigorous analytical rigor, user empathy, and rapid prototyp
 
 ## 🎯 The Google APM Perspective: Why This Intersection Matters
 
-```
-               ┌────────────────────────────────────────────────────────┐
-               │            KHUSHBOO'S PRODUCT INTERSECTION             │
-               └────────────────────────────────────────────────────────┘
-                       ▲                           ▲
-                       │                           │
-          ┌────────────┴────────────┐ ┌────────────┴────────────┐
-          │   FINANCE & ECONOMICS   │ │     CORPORATE LAW       │
-          │   Unit Economics, LTV/  │ │   Statutory Compliance, │
-          │   CAC, Capital Flow &   │ │   Data Privacy, Moats & │
-          │   Business Viability    │ │   Consumer Protection   │
-          └────────────┬────────────┘ └────────────┬────────────┘
-                       │                           │
-                       ▼                           ▼
-               ┌────────────────────────────────────────────────────────┐
-               │              0-TO-1 PRODUCT CRAFTSMANSHIP              │
-               │   Empathy-driven UX, High-scale Systems & Execution    │
-               └────────────────────────────────────────────────────────┘
-```
+| Pillar | Core Advantage | Product Impact |
+| :--- | :--- | :--- |
+| **Finance & Economics** | Unit economics, LTV/CAC modeling, capital allocation & financial viability | Grounds product prioritization in sustainable unit economics and business ROI |
+| **Corporate Law & Compliance** | Statutory compliance (RBI, DPDP), data privacy, regulatory moats & consumer rights | Architects products that treat compliance as an upfront competitive advantage, not an afterthought |
+| **0-to-1 Product Craftsmanship** | First-principles user discovery, information architecture & rapid prototyping | Translates high-friction regulatory and financial constraints into intuitive, human-centered UX |
 
 1. **Regulatory Awareness as a Product Moat:** 
    Building at Google scale requires knowing that regulations (GDPR, DPDP, antitrust, financial compliance) are not afterthoughts—they define product architecture from Day 1.
@@ -219,5 +205,5 @@ I am actively networking with product leaders, builders, and the **Google APM** 
 </p>
 
 <p align="left">
-  <sub>Crafted with precision for <strong>Khushboo Narang</strong> • © 2026/2027 • Targeting Google APM</sub>
+  <sub>Crafted with precision for <strong>Khushboo Narang</strong> • © 2026 • Targeting Google APM</sub>
 </p>
