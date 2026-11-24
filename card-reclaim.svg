@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="rec-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F17"/>
+      <stop offset="60%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+
+    <!-- Subtle Teal Radial Glow -->
+    <radialGradient id="rec-glow" cx="12%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#0D9488" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="rec-title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="rec-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.5"/>
+      <stop offset="40%" stop-color="#30363D"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+
+    <pattern id="rec-grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#334155" fill-opacity="0.2"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <!-- Outer Card Frame -->
+  <rect width="920" height="260" rx="14" fill="url(#rec-bg)"/>
+  <rect width="920" height="260" rx="14" fill="url(#rec-grid)"/>
+  <rect width="920" height="260" rx="14" fill="url(#rec-glow)"/>
+  <rect width="920" height="260" rx="14" fill="none" stroke="url(#rec-border)" stroke-width="1.2"/>
+
+  <!-- Left Content Zone -->
+  <!-- 1. Category Eyebrow Badge -->
+  <g transform="translate(40, 28)">
+    <rect width="260" height="24" rx="12" fill="#132724" stroke="#0D9488" stroke-width="0.8" stroke-opacity="0.6"/>
+    <circle cx="14" cy="12" r="3" fill="#2DD4BF"/>
+    <text x="24" y="16" class="font-mono" font-size="10" font-weight="700" fill="#2DD4BF" letter-spacing="1">0-TO-1 PRODUCT • FINTECH &amp; SAFETY</text>
+  </g>
+
+  <!-- 2. Project Title & Status -->
+  <g transform="translate(40, 78)">
+    <text class="font-sans" font-size="24" font-weight="800" fill="url(#rec-title-grad)" letter-spacing="-0.4">RECLAIM</text>
+    <rect x="116" y="-17" width="76" height="20" rx="10" fill="#064E3B" stroke="#059669" stroke-width="0.8"/>
+    <text x="154" y="-3" class="font-mono" font-size="9" font-weight="700" fill="#6EE7B7" text-anchor="middle">LIVE MVP</text>
+  </g>
+
+  <!-- 3. Subtitle / Core Proposition -->
+  <g transform="translate(40, 102)">
+    <text class="font-sans" font-size="15" font-weight="600" fill="#F1F5F9" letter-spacing="-0.1">Guided Cyber-Fraud Recovery Web App</text>
+  </g>
+
+  <!-- 4. One-line Problem Statement -->
+  <g transform="translate(40, 126)">
+    <text class="font-sans" font-size="12.5" font-weight="400" fill="#94A3B8">Rapid-triage recovery engine translating complex RBI zero-liability circulars into actionable claims.</text>
+  </g>
+
+  <!-- 5. 2x2 Product Architecture Chips -->
+  <g transform="translate(40, 154)">
+    <!-- Chip 1: 4W Precision Engine -->
+    <g transform="translate(0, 0)">
+      <rect width="255" height="34" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <rect x="8" y="9" width="16" height="16" rx="4" fill="#132724"/>
+      <text x="16" y="21" class="font-mono" font-size="10" font-weight="700" fill="#2DD4BF" text-anchor="middle">4W</text>
+      <text x="32" y="22" class="font-sans" font-size="11.5" font-weight="600" fill="#E2E8F0">4W Precision Engine</text>
+    </g>
+
+    <!-- Chip 2: Dual-Path Onboarding -->
+    <g transform="translate(265, 0)">
+      <rect width="255" height="34" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <rect x="8" y="9" width="16" height="16" rx="4" fill="#1E293B"/>
+      <path d="M 12 17 L 16 13 L 20 17 M 16 13 L 16 21" stroke="#38BDF8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="32" y="22" class="font-sans" font-size="11.5" font-weight="600" fill="#E2E8F0">Dual-Path Onboarding</text>
+    </g>
+
+    <!-- Chip 3: Plain-Language RBI Rules -->
+    <g transform="translate(0, 42)">
+      <rect width="255" height="34" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <rect x="8" y="9" width="16" height="16" rx="4" fill="#191B33"/>
+      <circle cx="16" cy="17" r="4" fill="none" stroke="#818CF8" stroke-width="1.2"/>
+      <text x="32" y="22" class="font-sans" font-size="11.5" font-weight="600" fill="#E2E8F0">Plain-Language RBI Rules</text>
+    </g>
+
+    <!-- Chip 4: Amount-Based Smart Routing -->
+    <g transform="translate(265, 42)">
+      <rect width="255" height="34" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <rect x="8" y="9" width="16" height="16" rx="4" fill="#132724"/>
+      <path d="M 13 14 L 19 17 L 13 20" stroke="#2DD4BF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <text x="32" y="22" class="font-sans" font-size="11.5" font-weight="600" fill="#E2E8F0">Amount-Based Smart Routing</text>
+    </g>
+  </g>
+
+  <!-- Right Interactive Mockup / Architecture Panel -->
+  <g transform="translate(600, 24)">
+    <!-- Container Card -->
+    <rect width="280" height="212" rx="10" fill="#0B131F" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Window Top Header -->
+    <rect width="280" height="28" rx="10" fill="#0F172A"/>
+    <rect y="20" width="280" height="8" fill="#0F172A"/>
+    <circle cx="14" cy="14" r="3.5" fill="#EF4444" opacity="0.8"/>
+    <circle cx="26" cy="14" r="3.5" fill="#F59E0B" opacity="0.8"/>
+    <circle cx="38" cy="14" r="3.5" fill="#10B981" opacity="0.8"/>
+    <text x="266" y="18" class="font-mono" font-size="8.5" fill="#64748B" text-anchor="end">TRIAGE // RUNTIME</text>
+
+    <!-- Content 1: TTR Metric Banner -->
+    <g transform="translate(14, 40)">
+      <rect width="252" height="42" rx="6" fill="#13232C" stroke="#0D9488" stroke-width="0.8" stroke-opacity="0.4"/>
+      <text x="14" y="20" class="font-mono" font-size="9" font-weight="700" fill="#5EEAD4">RECOVERY TIME-TO-REPORT (TTR)</text>
+      <text x="14" y="35" class="font-sans" font-size="14" font-weight="800" fill="#FFFFFF">&lt; 3 MINUTES <tspan font-size="10" font-weight="500" fill="#94A3B8">(vs. 48h manual)</tspan></text>
+      <!-- Mini lightning spark -->
+      <path d="M 234 14 L 226 23 L 230 23 L 224 32 L 236 21 L 231 21 Z" fill="#2DD4BF"/>
+    </g>
+
+    <!-- Content 2: Calm Step-by-Step Reporting Guidance -->
+    <g transform="translate(14, 90)">
+      <rect width="252" height="34" rx="6" fill="#102026" stroke="#0D9488" stroke-width="0.8" stroke-opacity="0.5"/>
+      <circle cx="13" cy="17" r="3" fill="#2DD4BF"/>
+      <text x="23" y="14" class="font-mono" font-size="8" font-weight="700" fill="#5EEAD4">CALM, STEP-BY-STEP REPORTING GUIDANCE</text>
+      <text x="23" y="25" class="font-sans" font-size="7.5" fill="#CBD5E1">Without countdown timers to prevent user panic</text>
+    </g>
+
+    <!-- Content 3: Smart Routing Split -->
+    <g transform="translate(14, 130)">
+      <!-- Branch A: Panic Freeze -->
+      <rect width="122" height="34" rx="5" fill="#191B33" stroke="#818CF8" stroke-width="0.8" stroke-opacity="0.4"/>
+      <text x="10" y="15" class="font-mono" font-size="8" font-weight="700" fill="#A5B4FC">PATH A: PANIC</text>
+      <text x="10" y="27" class="font-sans" font-size="9" font-weight="600" fill="#E2E8F0">60s Bank Account Freeze</text>
+
+      <!-- Branch B: Legal Dossier -->
+      <rect x="130" width="122" height="34" rx="5" fill="#132724" stroke="#2DD4BF" stroke-width="0.8" stroke-opacity="0.4"/>
+      <text x="140" y="15" class="font-mono" font-size="8" font-weight="700" fill="#5EEAD4">PATH B: DOSSIER</text>
+      <text x="140" y="27" class="font-sans" font-size="9" font-weight="600" fill="#E2E8F0">Automated MoHA / 1930</text>
+    </g>
+
+    <!-- Bottom Status Note -->
+    <g transform="translate(14, 180)">
+      <text x="126" y="16" class="font-mono" font-size="8.5" fill="#64748B" text-anchor="middle">100% REGULATORY COMPLIANCE WITH RBI 2017/2023</text>
+    </g>
+  </g>
+</svg>
